@@ -11,7 +11,7 @@ apt-get install -y automake make gcc libevent-dev libncurses5-dev pkg-config
 apt-get install -y xsel
 
 INSTALL_PREFIX=/usr/local
-TMUX_VERSION=2.7
+TMUX_VERSION=2.8
 
 # Get the source:
 if [ ! -d ${INSTALL_PREFIX}/src/tmux ]; then
