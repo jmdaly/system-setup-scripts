@@ -21,5 +21,5 @@ apt-get install -y python-dev python-pip python3-dev python3-pip
 apt-get install -y xsel
 
 # Then install the python modules:
-pip2 install neovim
-pip3 install neovim
+pip2 install pynvim
+pip3 install pynvim
