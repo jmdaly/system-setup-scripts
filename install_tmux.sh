@@ -5,13 +5,13 @@
 # 14.04 is too old to use plugins with.
 
 # Build dependencies
-apt-get install -y automake make gcc libevent-dev libncurses5-dev
+apt-get install -y automake make gcc libevent-dev libncurses5-dev pkg-config
 
 # This dependency is required for using the system clipboard:
 apt-get install -y xsel
 
 INSTALL_PREFIX=/usr/local
-TMUX_VERSION=2.4
+TMUX_VERSION=2.8
 
 # Get the source:
 if [ ! -d ${INSTALL_PREFIX}/src/tmux ]; then
