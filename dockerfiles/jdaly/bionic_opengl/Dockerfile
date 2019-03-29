@@ -2,7 +2,7 @@ FROM nvidia/opengl:1.0-glvnd-devel-ubuntu18.04
 
 RUN apt-get update
 RUN apt-get install -y software-properties-common \
-    locales zsh git
+    locales zsh git sudo
 
 # Add a user to the system
 RUN useradd --create-home --shell /bin/zsh jdaly
