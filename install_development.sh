@@ -16,5 +16,5 @@ apt-get install -y g++ \
   cmake-qt-gui \
   make \
   ninja-build \
-  build-essential
-
+  build-essential \
+  colordiff
