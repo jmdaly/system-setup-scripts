@@ -4,6 +4,7 @@
 # I use for software development
 
 apt-get install -y g++ \
+  gdb \
   clang \
   ccache \
   distcc \
