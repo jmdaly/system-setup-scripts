@@ -10,7 +10,6 @@ apt-get install -y g++ \
   distcc \
   doxygen \
   graphviz \
-  libpython-dev \
   cppcheck \
   cmake \
   cmake-curses-gui \
