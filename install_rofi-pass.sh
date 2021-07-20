@@ -8,7 +8,7 @@ apt-get install -y make checkinstall
 apt-get install -y xdotool xclip
 
 INSTALL_PREFIX=/usr/local
-ROFI_PASS_VERSION=1.3.1
+ROFI_PASS_VERSION=2.0.2
 
 # Get the source:
 if [ ! -d ${INSTALL_PREFIX}/src/rofi-pass ]; then
